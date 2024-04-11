@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.LinkedList;
 
 public class Primes {
-    public static List generatePrimes(int n) {
+    public static List<Integer> generatePrimes(int n) {
         //boolean to check whether number should be added to list
         boolean add = true;
 
@@ -52,7 +52,7 @@ public class Primes {
         return false;
     }
 
-    public static List getThrees(List<Integer> list) {
+    public static List<Integer> getThrees(List<Integer> list) {
 
         //linkedlist of primes with three
         List threePrimes = new LinkedList<Integer>();
