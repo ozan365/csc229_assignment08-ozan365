@@ -55,7 +55,7 @@ public class Primes {
     public static List<Integer> getThrees(List<Integer> list) {
 
         //linkedlist of primes with three
-        List threePrimes = new LinkedList<Integer>();
+        List<Integer> threePrimes = new LinkedList<>();
 
         //iterate over parameter list using foreach loop (faster than normal for loop)
         for(int n: list) {
